@@ -35,3 +35,11 @@ container2.appendChild(para2)// add para2 to container2
 
 
 container.appendChild(container2); //add all div.container2 to .container
+
+
+
+
+const btn = document.querySelector('#btn');
+btn.addEventListener('click', () => {
+  alert("Hello World");
+});
